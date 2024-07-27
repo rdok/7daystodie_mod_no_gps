@@ -13,3 +13,7 @@
 ## Features
 
 - Hide player icon & name on map
+
+### Modding Sources
+- [AGF - V1.0 - HUD PLUS](https://www.nexusmods.com/7daystodie/mods/870) for a mod template
+- [Basic_Modding_Tutorial_1](https://7daystodie.fandom.com/wiki/Basic_Modding_Tutorial_1) to confirm the required mod fields.
