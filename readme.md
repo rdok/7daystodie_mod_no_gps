@@ -6,7 +6,7 @@
 
 > Hides the GPS on map.
 
-[![No GPS Showcase](https://raw.githubusercontent.com/rdok/7daystodie_mod_no_gps/master/documentation/no_gps_showcase.webp)](https://www.nexusmods.com/7daystodie/mods/5525)
+[![No GPS Showcase](https://raw.githubusercontent.com/rdok/7daystodie_mod_no_gps/main/documentation/no_gps_showcase.webp)](https://www.nexusmods.com/7daystodie/mods/5525)
 
 - 7daystodie Version: 1.0 (b333)
 - Install with [Vortex](https://www.nexusmods.com/about/vortex/).
