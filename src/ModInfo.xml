@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="No-GPS" />
-    <DisplayName value="No GPS" />
-    <Version value="1.0.0" />
-    <Description value="Hide player icon and name on map." />
+    <Name value="No-GPS"/>
+    <DisplayName value="No GPS"/>
+    <Version value="1.0.0"/>
+    <Description value="Hide player icon and name on map."/>
     <Author value="Rizarttt"/>
     <Website value="https://www.nexusmods.com/7daystodie/mods/5525"/>
 </xml>
