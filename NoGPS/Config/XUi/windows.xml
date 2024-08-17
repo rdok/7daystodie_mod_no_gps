@@ -1,0 +1,12 @@
+<no-gps>
+    <!-- Header toolbar  -->
+    <setattribute xpath="//window[@name='mapArea']//rect[@name='toolbar']/label" name="color">255,255,255,0
+    </setattribute>
+    <setattribute xpath="//window[@name='mapArea']//rect[@name='toolbar']/button" name="force_hide">true</setattribute>
+    <setattribute xpath="//window[@name='mapArea']//rect[@name='toolbar']/sprite[@name='cursorIcon']" name="force_hide">
+        true
+    </setattribute>
+
+    <!-- Content stats -->
+    <setattribute xpath="//panel[@name='mapView']//rect" name="force_hide">true</setattribute>
+</no-gps>
