@@ -2,16 +2,21 @@
 
 [![nexus-mods-collection-immersive-hud](https://img.shields.io/badge/Nexus%20Mods%20Collection-Immersive%20HUD%20-orange?style=flat-square&logo=spinrilla)](https://next.nexusmods.com/7daystodie/collections/epfqzi) [![nexus-mods-page](https://img.shields.io/badge/Nexus%20Mod-No%20GPS%20-orange?style=flat-square&logo=spinrilla)](https://www.nexusmods.com/7daystodie/mods/5525) [![github-repository](https://img.shields.io/badge/GitHub-Repository-green?style=flat-square&logo=github)](https://github.com/rdok/7daystodie_mod_no_gps)
 
-> Hides the GPS on map.
+> Hides player icon, name, centering, header toolbar, and stats bar on the map.
+> **EAC:** This mod uses custom code that is not compatible with Easy Anti-Cheat.
 
-[![No GPS Showcase](https://raw.githubusercontent.com/rdok/7daystodie_mod_no_gps/main/documentation/no_gps_showcase.webp)](https://www.nexusmods.com/7daystodie/mods/5525)
+[![No GPS Showcase](https://raw.githubusercontent.com/rdok/7daystodie_mod_no_gps/main/documentation/showcase.jpg)](https://www.nexusmods.com/7daystodie/mods/5525)
 
-- 7daystodie Version: 1.0 (b333)
-- Install with [Vortex](https://www.nexusmods.com/about/vortex/).
 
 ## Features
-- Hide player icon & name on map
+- Hides player icon & name on map
+- Disable map centering on player
+- Hides map header tool bar
+- Hide map stats bar
+- Game Version: 1.0. Install with [Vortex](https://www.nexusmods.com/about/vortex/).
 
-### Modding Sources
-- [AGF - V1.0 - HUD PLUS](https://www.nexusmods.com/7daystodie/mods/870) for a mod template
-- [Basic_Modding_Tutorial_1](https://7daystodie.fandom.com/wiki/Basic_Modding_Tutorial_1) to confirm the required mod fields.
+## Changelog
+#### 1.1.0 17-Aug-24
+feat: Map opens in  last known location when opened.
+#### 1.0.0 27-Jul-24
+feat: Hide play icon on map
