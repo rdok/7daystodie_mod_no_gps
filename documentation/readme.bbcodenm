@@ -19,7 +19,10 @@ Hides player icon, name, centering, header toolbar, and stats bar on the map.
 [/list]
 [size=5]Changelog[/size]
 [size=3]1.1.0 17-Aug-24[/size]
-feat: Map opens in  last known location when opened.
+[list]
+[*] feat: Map opens in  last known location when opened.
+[*] feat: Hide map stats & header/toolbar.[/list]
 [size=3]1.0.0 27-Jul-24[/size]
-feat: Hide play icon on map
-
+[list]
+[*] feat: Hide play icon on map
+[/list]

@@ -17,6 +17,7 @@
 
 ## Changelog
 #### 1.1.0 17-Aug-24
-feat: Map opens in  last known location when opened.
+- feat: Map opens in  last known location when opened.
+- feat: Hide map stats & header/toolbar.
 #### 1.0.0 27-Jul-24
-feat: Hide play icon on map
+- feat: Hide play icon on map
