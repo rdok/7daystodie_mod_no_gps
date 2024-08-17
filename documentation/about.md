@@ -9,15 +9,14 @@
 
 
 ## Features
-- Hides player icon & name on map
-- Disable map centering on player
-- Hides map header tool bar
-- Hide map stats bar
+- Hides player icon, name, map header, and stats.
+- Disabled map centering on the player.
+- Map opens in the last known location when it was last closed.
 - Game Version: 1.0. Install with [Vortex](https://www.nexusmods.com/about/vortex/).
 
 ## Changelog
 #### 1.1.0 17-Aug-24
-- feat: Map opens in  last known location when opened.
+- feat: Map now opens in the last known location when it was last closed.
 - feat: Hide map stats & header/toolbar.
 #### 1.0.0 27-Jul-24
 - feat: Hide play icon on map
