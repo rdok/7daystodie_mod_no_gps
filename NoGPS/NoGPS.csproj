@@ -42,9 +42,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Harmony\DisableMapSnapping.cs"/>
         <Compile Include="Harmony\Logger.cs"/>
         <Compile Include="Harmony\Main.cs"/>
+        <Compile Include="Harmony\Store.cs" />
+        <Compile Include="Harmony\RestoreMapPosition.cs" />
+        <Compile Include="Harmony\StoreMapPosition.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
 
