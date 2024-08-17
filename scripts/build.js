@@ -1,25 +1,38 @@
-const { readFileSync, unlinkSync, mkdirSync, cpSync } = require("fs");
-const { join } = require("path");
-const { execSync } = require("child_process");
-require("dotenv").config();
+const {unlinkSync, rmSync, cpSync} = require("fs");
+const {join} = require("path");
+const {execSync} = require("child_process");
 
-const packageJsonPath = join(__dirname, "..", "package.json");
-const packageJsonRaw = readFileSync(packageJsonPath, "utf8");
-const packageJson = JSON.parse(packageJsonRaw);
-const version = packageJson.version;
-const name = `${process.env.NO_GPS} ${version}.7z`;
-
-try {
-  unlinkSync(name);
-} catch (e) {
-  // Expected behaviour if it doesn't exist.
+const args = process.argv.slice(2);
+if (args.length < 2) {
+    console.error("Usage: node script.js <absoluteOutputPath> <modName> <modVersion>");
+    process.exit(1);
 }
 
-const srcDir = join(__dirname, "..", "src");
-const distDir = join(__dirname, "..", "dist", process.env.NO_GPS);
+console.debug(args);
+const absoluteOutputPath = args[0];
+const newModName = args[1];
+const newVersion = args[2];
 
-mkdirSync(distDir, { recursive: true });
+const artifact = `${newModName}_${newVersion}.7z`;
+const distDir = join(__dirname, "..", "dist");
+const buildDir = join(distDir, newModName);
 
-cpSync(srcDir, distDir, { recursive: true });
+try {
+    unlinkSync(artifact);
+} catch (e) {
+    // Expected behavior if it doesn't exist.
+}
 
-execSync(`.\\node_modules\\7z-bin\\win32\\7z.exe a "${name}" "${distDir}"`);
+try {
+    rmSync(distDir, {recursive: true});
+} catch (e) {
+    // Expected behavior if it doesn't exist.
+}
+
+cpSync(absoluteOutputPath, buildDir, {recursive: true});
+
+execSync(
+    `.\\node_modules\\7z-bin\\win32\\7z.exe a "${artifact}" "${buildDir}"`
+);
+
+console.log(`Build completed: ${artifact}`);

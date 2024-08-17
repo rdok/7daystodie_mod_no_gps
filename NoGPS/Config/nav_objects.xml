@@ -1,0 +1,5 @@
+<no-gps>
+    <setattribute xpath="//nav_object_class[@name='player']/map_settings/property[@name='color']"
+                  name="value">255,255,255,0
+    </setattribute>
+</no-gps>
