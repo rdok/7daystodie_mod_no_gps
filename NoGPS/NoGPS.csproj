@@ -22,7 +22,7 @@
         <DebugSymbols>true</DebugSymbols>
         <DebugType>full</DebugType>
         <Optimize>false</Optimize>
-        <OutputPath>..\..\..\..\vortex_udf_7_days_to_die\Mods\ZZZZZ_NoMap</OutputPath>
+        <OutputPath>..\..\..\..\vortex_udf_7_days_to_die\Mods\ZZZZ_NoGPS</OutputPath>
         <DefineConstants>DEBUG;TRACE</DefineConstants>
         <ErrorReport>prompt</ErrorReport>
         <WarningLevel>4</WarningLevel>
@@ -37,7 +37,7 @@
         <WarningLevel>3</WarningLevel>
         <OutputPath>bin\Main\</OutputPath>
         <AbsoluteOutputPath>$(MSBuildProjectDirectory)\$(OutputPath)</AbsoluteOutputPath>
-        <ModVersion>1.1.0</ModVersion>
+        <ModVersion>1.2.0</ModVersion>
         <ModName>NoGPS</ModName>
     </PropertyGroup>
 
